@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,61 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body{
+  background-color: white;
+}
+
+.center{
+ text-align:end;
+ 
+
+
+} 
+
+.u-layout{
+  border-radius: 30% 30% 0 0;
+}
+.u-layout img {
+  border-radius: 30% 30% 0 0;
+}
+
+ .box{
+  background-color:darkcyan;
+  display:inline-block;
+  width: 20%;
+  height:90%;
+  border-color: black;
+
+
+  
+} 
+ .box{
+  display:inline-block;
+  border-width: 20%;
+  height:90%;
+  border-color: black;
+} 
+
+/* .page{
+  display: flex;
+  text-align: left;
+} */
+
+.form-page{
+  border-radius: 30% 30% 0 0;
+  text-align: right;
+  border-color: black;
+}
+
+.page, .p, .h1{
+  text-align: end;
+ 
+}
+
+.form,.h1,.p{
+  text-align: center;
+  border-radius: 30% 30% 0 0;
+  content: none;
 }
