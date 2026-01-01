@@ -1,23 +1,20 @@
-// import logo from './logo.svg';
 import React from "react";
-import Test1 from "./Test1";
-import Test2 from "./Test2";
-import Demo1 from "./Demo1";
-// import './App.css';
-import Test3 from "./Test3";
-import Test4 from "./Test4";
-import Header from "./components/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./component1/Home";
+import About_us from "./component1/About_us";
+import Contact from "./component1/Contact";
+import Nopage from "./component1/Nopage";
 
 function App() {
   return (
-    <div>
-      {/* hiiii <Test1 /> <Test2 />  */}
-
-      <Header />
-      <Test3 />
-      <Demo1 />
-    
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about_us" element={<About_us />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Nopage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

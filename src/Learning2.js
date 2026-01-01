@@ -1,8 +1,15 @@
 import React from 'react'
 
 function Learning2() {
+  const a=["apple","orange","banana"]
   return (
-    <div>Learning2</div>
+    //map method
+    <div>
+      {a.map((item)=> (
+        <p>{item}</p>
+      ))} 
+      
+       </div>
   )
 }
 
