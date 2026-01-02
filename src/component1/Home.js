@@ -7,6 +7,7 @@ function Home() {
         <h1> Home Page</h1>
         <li>
             <Link to="/about_us"> About_us</Link>
+            
             <Link to="/contact"> Contact </Link>
         </li>
     </div>
