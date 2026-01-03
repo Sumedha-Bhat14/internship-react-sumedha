@@ -5,7 +5,7 @@ function About_us() {
   const [count,setCount]=useState(0);
   // const myStyle={
   //   color:"green",
-  //   backgroundColor:"aqua",
+  //   backgroundColor:"aqua",  
   //   padding:"10px" 
   // } 
 
